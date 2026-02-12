@@ -1,0 +1,65 @@
+:root {
+  /* Hope you can enjoy playing around with adding these classes!!*/
+  /* You can change any of these values if you want!*/
+  
+  /* Colors*/
+  --background-color: #D4F5F5;
+  --font-color: #62A8AC;
+
+  /* Margins*/
+  --margin-s: 1em;
+  --margin-m: 2em;
+  --margin-l: 3em;
+
+  /* Paddings*/
+  --padding-s: 0.5em;
+  --padding-m: 1em;
+  --padding-l: 2em;
+
+  /* Font Size*/
+  --font-size-title: 2.5rem;
+  --font-size-caption: 0.25rem;
+}
+/* ------ HELPER CLASSES ------*/
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-color {
+  background-color: var(--background-color);
+}
+
+.margin-small {
+  margin: var(--margin-s);
+}
+
+.margin-medium {
+  margin: var(--margin-m);
+}
+
+.margin-large {
+  margin: var(--margin-l);
+}
+
+.padding-even-s {
+  padding: var(--padding-s)
+}
+
+.padding-even-m {
+  padding: var(--padding-m)
+}
+
+.padding-even-l {
+  padding: var(--padding-l)
+}
+
+.title {
+  font-size: var(--font-size-title);
+}
+
+.caption {
+  font-size: var(--font-size-caption);
+}
