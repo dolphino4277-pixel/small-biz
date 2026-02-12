@@ -95,13 +95,13 @@
 
 /* TYPOGRAPHY CLASSES*/
 .title {
-  /* Controls font-size, font-family, & other properties for the title*/
+  /* Controls font-size, font-family, & other text properties for the title*/
   font-size: var(--font-size-title);
   font-family: var(--title-font);
 }
 
 .caption {
-  /* Controls font-size, font-family, & other properties for the caption*/
+  /* Controls font-size, font-family, & other text properties for the caption*/
   font-size: var(--font-size-caption);
   font-family: var(--caption-font);
 }
