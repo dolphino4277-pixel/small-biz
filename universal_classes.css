@@ -19,24 +19,41 @@
   /* Font Size*/
   --font-size-title: 2.5rem;
   --font-size-caption: 0.25rem;
+
+  /* Font Families*/
+  --title-font: "Playwright Cuba Guides", serif;
+  --caption-font: "Roboto", sans-serif;
 }
 /* ------ HELPER CLASSES ------*/
 
 /* FLEX CLASSES*/
 .flex-center {
+  /* Centers everything inside container*/
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .flex-row {
+  /* Makes a flex-box with things next (side-by-side) to each other*/
   display: flex;
   flex-direction: row;
 }
 
 .flex-column {
+  /* Makes a flex-box with things on top of each other*/
   display: flex;
   flex-direction: column;
+}
+
+.flex-x-center {
+  /* Centers objects along the x-axis*/
+  justify-content: center;
+}
+
+.flex-y-center {
+  /* Centers objects along the y-axis*/
+  align-items: center;
 }
 
 /* COLOR CLASSES*/
@@ -46,37 +63,47 @@
 
 /* MARGIN CLASSES*/
 .margin-small {
+  /* Small margin around the border*/
   margin: var(--margin-s);
 }
 
 .margin-medium {
+  /* Medium margin around the border*/
   margin: var(--margin-m);
 }
 
 .margin-large {
+  /* Large margin around the border*/
   margin: var(--margin-l);
 }
 
 /* PADDING CLASSES*/
 .padding-even-s {
+  /* Small padding on all sides of content*/
   padding: var(--padding-s);
 }
 
 .padding-even-m {
+  /* Medium padding on all sides of content*/
   padding: var(--padding-m);
 }
 
 .padding-even-l {
+  /* Large padding on all sides of content*/
   padding: var(--padding-l);
 }
 
-/* FONT SIZE CLASSES*/
+/* TYPOGRAPHY CLASSES*/
 .title {
+  /* Controls font-size, font-family, & other properties for the title*/
   font-size: var(--font-size-title);
+  font-family: var(--title-font);
 }
 
 .caption {
+  /* Controls font-size, font-family, & other properties for the caption*/
   font-size: var(--font-size-caption);
+  font-family: var(--caption-font);
 }
 
 
