@@ -59,15 +59,15 @@
 
 /* PADDING CLASSES*/
 .padding-even-s {
-  padding: var(--padding-s)
+  padding: var(--padding-s);
 }
 
 .padding-even-m {
-  padding: var(--padding-m)
+  padding: var(--padding-m);
 }
 
 .padding-even-l {
-  padding: var(--padding-l)
+  padding: var(--padding-l);
 }
 
 /* FONT SIZE CLASSES*/
