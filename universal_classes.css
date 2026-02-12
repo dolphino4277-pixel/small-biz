@@ -22,16 +22,29 @@
 }
 /* ------ HELPER CLASSES ------*/
 
+/* FLEX CLASSES*/
 .flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* COLOR CLASSES*/
 .background-color {
   background-color: var(--background-color);
 }
 
+/* MARGIN CLASSES*/
 .margin-small {
   margin: var(--margin-s);
 }
@@ -44,6 +57,7 @@
   margin: var(--margin-l);
 }
 
+/* PADDING CLASSES*/
 .padding-even-s {
   padding: var(--padding-s)
 }
@@ -56,6 +70,7 @@
   padding: var(--padding-l)
 }
 
+/* FONT SIZE CLASSES*/
 .title {
   font-size: var(--font-size-title);
 }
@@ -63,3 +78,5 @@
 .caption {
   font-size: var(--font-size-caption);
 }
+
+
