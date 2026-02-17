@@ -1,1 +1,12 @@
+:root {
+  --accent: #F6AD55;
+}
+.signin-cover {
+  height: 100%;
+  width: 50%;
 
+  position: absolute;
+  right: 0;
+
+  background-color: var(--accent);
+}
