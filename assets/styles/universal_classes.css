@@ -2,9 +2,13 @@
   /* Hope you can enjoy playing around with adding these classes!!*/
   /* You can change any of these values if you want!*/
   
-  /* Colors*/
-  --background-color: #D4F5F5;
-  --font-color: #62A8AC;
+  /* Main Colors*/
+  --background-color: #F9F9F9;
+  --font-color: #2D3748;
+  --accent: #F6AD55;
+
+  /* Font Colors*/
+  --title-color: var(--font-color);
 
   /* Margins*/
   --margin-s: 1em;
@@ -24,6 +28,7 @@
   --title-font: "Playwright Cuba Guides", serif;
   --caption-font: "Roboto", sans-serif;
 }
+
 /* ------ HELPER CLASSES ------*/
 
 /* FLEX CLASSES*/
@@ -59,6 +64,14 @@
 /* COLOR CLASSES*/
 .background-color {
   background-color: var(--background-color);
+}
+
+.font-accent {
+  color: var(--accent);
+}
+
+.background-accent {
+  background-color: var(--accent);
 }
 
 /* MARGIN CLASSES*/
@@ -98,6 +111,12 @@
   /* Controls font-size, font-family, & other text properties for the title*/
   font-size: var(--font-size-title);
   font-family: var(--title-font);
+  font-weight: bold;
+  color: var(--title-color);
+  line-height:;
+  letter-spacing:;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .caption {
