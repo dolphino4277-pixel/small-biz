@@ -4,8 +4,8 @@
   
   /* Main Colors*/
   --background-color: #F9F9F9;
-  --font-color: #2D3748;
   --accent: #F6AD55;
+  --font-color: #2D3748;
 
   /* Font Colors*/
   --title-color: var(--font-color);
