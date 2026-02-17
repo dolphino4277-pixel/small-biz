@@ -25,48 +25,42 @@
     </header>
     
     <main>
-		<div class="flex-center flex-column">
+		<div class="flex-center flex-column background-accent">
 			<div>
 				<h1 class="title">User Signin/Registration</h1>
 			</div>
 			
 			<div class="flex-row">
-				<div>
+				<div class="flex-column">
 					<div>
-						<div>
-							<h2>User Signin</h2>
-						</div>
-						
-						<form>
-							<label for="uname">Username: </label>
-							<input id="uname" name="uname" type="text"></input>
-
-							<label for="upass">Password: </label>
-							<input id="upass" name="upass" type="password"></input>
-
-							<button>Submit</button>
-						</form>
+						<h2>User Signin</h2>
 					</div>
 					
-					<div>
-						<div>
-							<h2>User Registration</h2>
-						</div>
-						
-						<form>
-							<label for="newuname">Username: </label>
-							<input id="newuname" name="newuname" type="text"></input>
+					<form class="flex-column">
+						<label for="uname">Username: </label>
+						<input id="uname" name="uname" type="text"></input>
 
-							<label for="newupass">Password: </label>
-							<input id="newupass" name="newupass" type="password"></input>
+						<label for="upass">Password: </label>
+						<input id="upass" name="upass" type="password"></input>
 
-							<button>Submit</button>
-						</form>
-					</div>
+						<button>Submit</button>
+					</form>
 				</div>
-	
-				<div>
+				
+				<div class="flex-column">
+					<div>
+						<h2>User Registration</h2>
+					</div>
 					
+					<form class="flex-column">
+						<label for="newuname">Username: </label>
+						<input id="newuname" name="newuname" type="text"></input>
+
+						<label for="newupass">Password: </label>
+						<input id="newupass" name="newupass" type="password"></input>
+
+						<button>Submit</button>
+					</form>
 				</div>
 			</div>
 
