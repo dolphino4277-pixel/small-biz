@@ -2,21 +2,23 @@
   /* Hope you can enjoy playing around with adding these classes!!*/
   /* You can change any of these values if you want!*/
   
-  /* Main Colors*/
-  --background-color: #F9F9F9;
-  --accent: #F6AD55;
-  --font-color: #2D3748;
-  /* web colors */
---frozen-water: #defff2ff;
---deep-space-blue: #0b3954ff;
---air-force-blue: #658e9cff;
---golden-orange: #f0a202ff;
+  /* MAIN COLORS HEX */
+  --frozen-water: #defff2ff;
+  --deep-space-blue: #0b3954ff;
+  --air-force-blue: #658e9cff;
+  --golden-orange: #f0a202ff;
+  
+  /* MAIN COLORS HSL */
+  --frozen-water: hsla(156, 100%, 94%, 1);
+  --deep-space-blue: hsla(202, 77%, 19%, 1);
+  --air-force-blue: hsla(195, 22%, 50%, 1);
+  --golden-orange: hsla(40, 98%, 47%, 1);
 
-/* CSS HSL */
---frozen-water: hsla(156, 100%, 94%, 1);
---deep-space-blue: hsla(202, 77%, 19%, 1);
---air-force-blue: hsla(195, 22%, 50%, 1);
---golden-orange: hsla(40, 98%, 47%, 1);
+  /* Main Colors*/
+  --base-background-color: var(--frozen-water);
+  --alt-background-color: var(--air-force-blue);
+  --accent: var(--golden-orange);
+  --font-color: var(--deep-space-blue);
 
   /* Font Colors*/
   --title-color: var(--font-color);
