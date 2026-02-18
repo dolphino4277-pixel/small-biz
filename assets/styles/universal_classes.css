@@ -37,7 +37,7 @@
   --font-size-title: clamp(2rem, 5vw + 1rem, 4rem);
   --font-size-subtitle: clamp(1.5rem, 3vw + 1rem, 2.5rem);
   --font-size-minor-title: clamp(1.25rem, 2.5vw + 1rem, 1.75rem);
-  --font-size-paragraph: clamp(1rem, 1vw + 0.75rem, 1.25rem)
+  --font-size-paragraph: clamp(1rem, 1vw + 0.75rem, 1.25rem);
   --font-size-caption: clamp(0.8rem, 0.5vw + 0.7rem, 0.9rem);
 
   /* Line Height*/
