@@ -1,6 +1,10 @@
 :root {
   --accent: #F6AD55;
+
+  --padding-m: 1em;
+  --padding-s: 0.5em;
 }
+
 .signin-cover {
   height: 100%;
   width: 50%;
@@ -9,4 +13,13 @@
   right: 0;
 
   background-color: var(--accent);
+}
+
+.signin-form {
+  padding: var(--padding-m);
+}
+
+.signin-form input,
+.signin-form label {
+  padding: var(--padding-m) var(--padding-s);
 }
