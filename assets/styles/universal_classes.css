@@ -23,15 +23,12 @@
   /* Font Colors*/
   --title-color: var(--font-color);
 
-  /* Margins*/
-  --margin-s: 1em;
-  --margin-m: 2em;
-  --margin-l: 3em;
-
-  /* Paddings*/
-  --padding-s: 0.5em;
-  --padding-m: 1em;
-  --padding-l: 2em;
+  /* Layout Spacing*/
+  --space-xs: clamp(0.25rem, 0.5vw, 0.5rem); /* Space between deeply related things like an Icon & Text or a Label and Input field*/
+  --space-s: clamp(0.5rem, 1vw + 0.25rem, 1rem); /* Space between a related things like Headline and it's Subtitle*/
+  --space-m: clamp(1rem, 2vw + 0.5rem, 2rem); /* Space between Pargraphs; padding for a standard cards; defualt gap between items in a list*/
+  --space-l: clamp(2rem, 4vw + 0.5rem, 4rem); /* Space between Components like 2 different cards; a large image and text*/
+  --space-xl: clamp(4rem, 8vw + 2rem, 8rem); /* Space between Sections; like hero section and features section; padding for footer*/
 
   /* Font Size*/
   --font-size-title: clamp(2rem, 5vw + 1rem, 4rem);
@@ -107,36 +104,30 @@
 }
 
 /* MARGIN CLASSES*/
-.margin-small {
-  /* Small margin around the border*/
-  margin: var(--margin-s);
-}
+/* All Sides*/
+.m-xs { margin: var(--space-xs) !important; }
+.m-s { margin: var(--space-s) !important; }
+.m-m { margin: var(--space-m) !important; }
+.m-l { margin: var(--space-l) !important; }
+.m-xl { margin: var(--space-xl) !important; }
 
-.margin-medium {
-  /* Medium margin around the border*/
-  margin: var(--margin-m);
-}
+/* Vertical (y)*/
+.my-m { margin-top: var(--space-m) !important; margin-bottom: var(--space-m) !important;}
 
-.margin-large {
-  /* Large margin around the border*/
-  margin: var(--margin-l);
-}
+/* Bottom*/
+.mb-m { margin-bottom: var(--space-m) !important; }
 
 /* PADDING CLASSES*/
-.padding-even-s {
-  /* Small padding on all sides of content*/
-  padding: var(--padding-s);
-}
+/* All Sides*/
+.p-xs { padding: var(--space-xs) !important; }
+.p-s { padding: var(--space-s) !important; }
+.p-m { padding: var(--space-m) !important; }
+.p-l { padding: var(--space-l) !important; }
+.p-xl { padding: var(--space-xl) !important; }
 
-.padding-even-m {
-  /* Medium padding on all sides of content*/
-  padding: var(--padding-m);
-}
+/* Horizontal (x)*/
+.px-m { padding-left: var(--space-m) !important; padding-right: var(--space-m) !important; }
 
-.padding-even-l {
-  /* Large padding on all sides of content*/
-  padding: var(--padding-l);
-}
 
 /* TYPOGRAPHY CLASSES*/
 .title {
