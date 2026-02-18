@@ -9,10 +9,10 @@
   --golden-orange-hex: #f0a202;
   
   /* MAIN COLORS HSL */
-  --frozen-water-hsla: hsla(156, 100%, 94%, 1);
-  --deep-space-blue-hsla: hsla(202, 77%, 19%, 1);
-  --air-force-blue-hsla: hsla(195, 22%, 50%, 1);
-  --golden-orange-hsla: hsla(40, 98%, 47%, 1);
+  --frozen-water-hsla: 156, 100%, 94%;
+  --deep-space-blue-hsla: 202, 77%, 19%;
+  --air-force-blue-hsla: 195, 22%, 50%;
+  --golden-orange-hsla: 40, 98%, 47%;
 
   /* Main Colors*/
   --base-background-color: var(--frozen-water-hex);
