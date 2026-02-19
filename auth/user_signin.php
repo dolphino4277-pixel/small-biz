@@ -73,6 +73,8 @@
 			</div>
 		</div>
 	</main>
+
+	<?php include '../assets/templates/footer.html'>
     
     <footer>
 		<div>
