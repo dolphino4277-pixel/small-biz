@@ -119,4 +119,24 @@
   letter-spacing: var(--letter-spacing-caption);
 }
 
+/* Logo Classes*/
+.header-logo {
+  /* Layout*/
+  width: var(--logo-width);
+  height: var(--logo-height);
+  padding: var(--space-m);
+
+  /* Mask Layout*/
+  -webkit-mask-image: url('../logos/logo.png');
+	mask-image: url('../logos/logo.png');
+  -webkit-mask-size: contain;
+	mask-size: contain;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	mask-position: center;
+
+  /* Aesthetic*/
+  background-color: var(--logo-color);
+}
 
