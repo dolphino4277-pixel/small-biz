@@ -52,4 +52,9 @@
   /* Font Families*/
   --title-font: "Playwright Cuba Guides", serif;
   --caption-font: "Roboto", sans-serif;
+
+  /* Logo Properties*/
+  --logo-width: clamp(150px, 20vw, 250px);
+  --logo-height: clamp(100px, 15vw, 225px);
+  --logo-color: var(--golden-orange-hex);
 }
