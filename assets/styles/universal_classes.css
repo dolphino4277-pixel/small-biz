@@ -135,8 +135,8 @@
   padding: var(--space-m);
 
   /* Mask Layout*/
-  -webkit-mask-image: url('../logos/logo.png');
-  mask-image: url('../logos/logo.png');
+  -webkit-mask-image: url('assets/logos/logo.png');
+  mask-image: url('assets/logos/logo.png');
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
