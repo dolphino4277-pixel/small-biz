@@ -127,7 +127,12 @@
   letter-spacing: var(--letter-spacing-caption);
 }
 
-/* Logo Classes*/
+/* Basic Interactive Classes*/
+.button-hover:hover {
+  transform: scale(1.02) translateX(-1%) translateY(-1%);
+}
+
+/* LOGO CLASSES*/
 .header-logo {
   /* Layout*/
   width: var(--logo-width);
@@ -148,5 +153,19 @@
   
   /* Aesthetic*/
   background-color: var(--logo-color);
+}
+
+/* HEADER CLASSES*/
+.home-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-nav-elements {
+  /* Layout*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
