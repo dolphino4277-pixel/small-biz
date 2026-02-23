@@ -30,6 +30,14 @@
   align-items: center;
 }
 
+.flex-space-between-x {
+  justify-content: space-between;
+}
+
+.flex-space-between-y {
+  align-items: space-between;
+}
+
 /* COLOR CLASSES*/
 .background-color {
   background-color: var(--base-background-color);
