@@ -14,5 +14,5 @@
 
 .signin-form input,
 .signin-form label {
-  padding: var(--space-s) var(--space-xs);
+  margin: var(--space-s) var(--space-xs);
 }
