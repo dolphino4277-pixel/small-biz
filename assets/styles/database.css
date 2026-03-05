@@ -1,0 +1,74 @@
+:root {
+	--database-max-height: clamp(12rem, 80dvh + 5rem, 64rem);
+	--search-bar-height: clamp(4rem, 20vh + 1.2rem, 9rem);
+	--search-field-height-percent: 25%;
+}
+
+#database-main {
+	max-height: calc(var(--search-bar-height) + var(--database-max-height));
+}
+
+#database-main .view-database td{
+	display: flex;
+	flex-direction: row;
+}
+
+#categoryItemList {
+	display: none;
+	position: absolute;
+	max-height: 50vh;
+	top: var(--search-field-height-percent);
+	left: 0;
+	
+	overflow-y: scroll;
+	
+	background-color: var(--alt-background-color);
+}
+
+#categoryItems {
+	padding: 10px;
+}
+
+#database-search-bar {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/*top: 0;
+	left: 0;*/
+	
+	width: 100%;
+	height: var(--search-bar-height);
+	
+	background-color: var(--base-background-color);
+}
+
+.database-subsection {
+	display: flex;
+	flex-direction: row;
+}
+
+#database-subsection-search {
+	height: 60%;
+}
+
+#database-subsection-filter {
+	height: 40%;
+}
+
+.search {
+	height: var(--search-field-height-percent);
+}
+
+#category-search {
+	position: relative;
+	
+}
+
+.item {
+	list-style-type: none;
+}
+
+#category-search:hover #categoryItemList,
+#category-search:active #categoryItemList {
+	display: block;
+}
