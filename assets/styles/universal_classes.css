@@ -99,6 +99,40 @@
   letter-spacing: var(--letter-spacing-title);
 }
 
+.subtitle {
+  /* Controls font-size, font-family, & other text properties for the title*/
+  /* Layout*/
+  text-align: center;
+
+  /* Typography*/
+  font-size: var(--font-size-subtitle);
+  font-family: var(--title-font);
+  line-height: var(--line-height-subtitle);
+  font-weight: bold;
+
+  /* Aesthetic*/
+  color: var(--title-color);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-subtitle);
+}
+
+.minor-title {
+  /* Controls font-size, font-family, & other text properties for the title*/
+  /* Layout*/
+  text-align: center;
+
+  /* Typography*/
+  font-size: var(--font-size-minor-title);
+  font-family: var(--title-font);
+  line-height: var(--line-height-subtitle);
+  font-weight: bold;
+
+  /* Aesthetic*/
+  color: var(--title-color);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-subtitle);
+}
+
 .paragraph {
   /* Controls font-size, font-family, & other text properties for paragraphs*/
   /* Layout*/
@@ -132,6 +166,14 @@
   transform: scale(1.02) translateX(-1%) translateY(-1%);
 }
 
+/* BASIC CLASSES*/
+.card {
+	margin: 1.25rem 1.5rem;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
+}
+
 /* LOGO CLASSES*/
 .header-logo {
   /* Layout*/
@@ -140,8 +182,8 @@
   padding: var(--space-m);
 
   /* Mask Layout*/
-  -webkit-mask-image: url('/small-biz/assets/logos/logo.png');
-  mask-image: url('/small-biz/assets/logos/logo.png');
+  -webkit-mask-image: url('/assets/logos/logo.png');
+  mask-image: url('/assets/logos/logo.png');
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
