@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<link rel="stylesheet" href="/assets/styles/variables.css">
+	<link rel="stylesheet" href="/assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/universal_classes.css">
+	<link rel="stylesheet" href="/assets/styles/database.css">
   </head>
   <body>
-    <div class="view-database">
-      
-    </div>
+	<header class="flex-row">
+		<div class="header-logo"></div>
+			
+		<div class="home-nav-elements">
+		<div>
+		  <h1>Search</h1>
+		</div>
+		
+		<div>
+		  <a href="/small-biz/auth/user_signin.html">User Login</a>
+		</div>
+	  </div>
+	</header>
+    <main id="database-main" class="card">
+		<div id="database-search-bar">
+			<div id="database-subsection-search" class="database-subsection">
+				<div id="business-search">
+					<input type="text" id="BusinessSearch" class="search" placeholder="Search Businesses">
+				</div>
+				
+				<div id="category-search">
+					<input type="text" id="categorySearch" class="search" placeholder="Search Categories">
+					<button id="catAddFilter">Add Filter</button>
+					<div id="categoryItemList">
+					</div>
+				</div>
+			</div>
+			<div id="database-subsection-filter" class="database-subsection">
+			</div>
+		</div>
+		<table>
+			<thead>
+			</thead>
+			<tbody class="view-database"></tbody>
+			<tfoot>
+			
+			</tfoot>
+		</table>
+    </main>
 
-    <script type="module" src="/small-biz/assets/database/yelp_business_dataset.json"></script>
+	<script type="module" src="/assets/scripts/database.js"></script>
   </body>
 </html>
